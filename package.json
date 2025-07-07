@@ -1,0 +1,16 @@
+{
+  "name": "sharma-lab-website",
+  "version": "1.0.0",
+  "description": "A static website for the Sharma Lab at Johns Hopkins University",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --port=3000 --open=/index.html",
+    "start": "live-server --port=3000 --open=/index.html"
+  },
+  "keywords": ["academic", "research", "lab", "website", "johns-hopkins"],
+  "author": "Dr. Ajay Kumar Sharma",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - Sharma Lab</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Ajay Kumar Sharma Lab</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Contact Us</h2>
+      <div class="contact-card">
+        <img src="images/Ajay_Photo.jpg" alt="Dr. Ajay Kumar Sharma" class="contact-photo">
+        <div class="contact-details">
+          <h3>Dr. Ajay Kumar Sharma, Ph.D.</h3>
+          <p class="title">Principal Investigator & Research Associate (Faculty)</p>
+          <p class="affiliation">Division of Nuclear Medicine and Molecular Imaging<br>
+          Department of Radiology, Johns Hopkins University</p>
+          
+          <div class="contact-info">
+            <p><strong>Office Address:</strong><br>
+            Cancer Research Building II (CRB II), Room 490<br>
+            Johns Hopkins School of Medicine<br>
+            1550 Orleans Street<br>
+            Baltimore, MD 21287, USA</p>
+
+            <p><strong>Email:</strong> 
+              <a href="mailto:asharm80@jhmi.edu">asharm80@jhmi.edu</a> | 
+              <a href="mailto:shajay0412@gmail.com">shajay0412@gmail.com</a>
+            </p>
+            <p><strong>Phone:</strong> +1 (410) 502-8174</p>
+            <p><strong>Mobile:</strong> +1 (313) 603-8875</p>
+            <p><strong>ORCID:</strong> <a href="https://orcid.org/0000-0003-1361-6923" target="_blank">0000-0003-1361-6923</a></p>
+          </div>
+
+          <div class="social-links">
+            <h4>Follow Us</h4>
+            <a href="https://x.com/TrailblazerAjay" target="_blank" class="social-link">Twitter (X)</a>
+            <a href="https://www.linkedin.com/in/ajay-kumar-sharma-49b719154/" target="_blank" class="social-link">LinkedIn</a>
+            <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" class="social-link">Google Scholar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h3>Location Map</h3>
+      <div class="map-container">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.032624352038!2d-76.59348218464736!3d39.29776997951145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c8054fd1bb9a2d%3A0x8df417c91884a40!2sCancer%20Research%20Building%20II%2C%20Johns%20Hopkins!5e0!3m2!1sen!2sus!4v1687810247632!5m2!1sen!2sus" 
+          width="100%" 
+          height="400" 
+          style="border:0; border-radius: 8px;" 
+          allowfullscreen="" 
+          loading="lazy">
+        </iframe>
+      </div>
+      <p class="map-caption">Cancer Research Building II, Johns Hopkins School of Medicine, Baltimore, MD</p>
+    </section>
+
+    <section>
+      <h3>Lab Inquiries</h3>
+      <p>We welcome inquiries from prospective students, postdocs, and collaborators interested in radiopharmaceutical development, molecular imaging, and cancer theranostics. Please feel free to reach out via email to discuss potential opportunities.</p>
+      
+      <div class="inquiry-topics">
+        <h4>Research Areas of Interest:</h4>
+        <ul>
+          <li>PET imaging agent development</li>
+          <li>Radiotherapeutic design and synthesis</li>
+          <li>Peptide-based targeting strategies</li>
+          <li>Ovarian and pancreatic cancer research</li>
+          <li>Multiple myeloma and neuroendocrine tumor imaging</li>
+          <li>Translational molecular imaging</li>
+          <li>Theranostic development using various radionuclides (18F, 64Cu, 68Ga, 177Lu, 225Ac)</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Ajay Kumar Sharma Lab, Johns Hopkins University</p>
+  </footer>
+
+  <style>
+    .contact-card {
+      display: flex;
+      gap: 2rem;
+      align-items: flex-start;
+      background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+      padding: 2rem;
+      border-radius: 12px;
+      border: 2px solid #3b82f6;
+      margin-bottom: 2rem;
+    }
+
+    .contact-photo {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #3b82f6;
+      flex-shrink: 0;
+    }
+
+    .contact-details {
+      flex: 1;
+    }
+
+    .contact-details h3 {
+      margin-top: 0;
+      color: #1e3a8a;
+      font-size: 1.75rem;
+    }
+
+    .contact-info {
+      margin: 1.5rem 0;
+    }
+
+    .contact-info p {
+      margin-bottom: 1rem;
+      line-height: 1.6;
+    }
+
+    .social-links h4 {
+      margin-bottom: 1rem;
+      color: #1e40af;
+    }
+
+    .map-container {
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    .map-caption {
+      text-align: center;
+      font-style: italic;
+      color: #6b7280;
+      margin-top: 1rem;
+    }
+
+    .inquiry-topics {
+      background: #f8fafc;
+      padding: 1.5rem;
+      border-radius: 8px;
+      border-left: 4px solid #10b981;
+      margin-top: 1rem;
+    }
+
+    @media (max-width: 768px) {
+      .contact-card {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .contact-photo {
+        align-self: center;
+        width: 150px;
+        height: 150px;
+      }
+    }
+  </style>
+</body>
+</html>
